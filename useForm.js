@@ -16,5 +16,9 @@ export const useForm = (initialForm = {}) => {
     setFormstate();
   };
 
+  const aaa=(uno,dos)=>{
+    return uno+dos;
+  }
+
   return { ...formstate, formstate, onInputChange, onResetForm };
 };
